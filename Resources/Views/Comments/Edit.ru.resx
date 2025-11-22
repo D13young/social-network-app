@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EditComment" xml:space="preserve">
+    <value>Редактировать комментарий</value>
+  </data>
+  <data name="CommentText" xml:space="preserve">
+    <value>Текст комментария</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+</root>

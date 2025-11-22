@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EditComment" xml:space="preserve">
+    <value>Edit Comment</value>
+  </data>
+  <data name="CommentText" xml:space="preserve">
+    <value>Comment Text</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+</root>

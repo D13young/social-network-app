@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EditPost" xml:space="preserve">
+    <value>Редактировать пост</value>
+  </data>
+  <data name="PostTitle" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="PostContent" xml:space="preserve">
+    <value>Содержание</value>
+  </data>
+  <data name="PostCommunity" xml:space="preserve">
+    <value>Сообщество</value>
+  </data>
+  <data name="SelectCommunity" xml:space="preserve">
+    <value>Выберите сообщество</value>
+  </data>
+  <data name="CurrentTags" xml:space="preserve">
+    <value>Текущие теги</value>
+  </data>
+  <data name="AddNewTag" xml:space="preserve">
+    <value>Добавить новый тег</value>
+  </data>
+  <data name="EnterNewTagName" xml:space="preserve">
+    <value>Введите название нового тега</value>
+  </data>
+  <data name="ReplaceImageOptional" xml:space="preserve">
+    <value>Заменить картинку (опционально)</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+</root>

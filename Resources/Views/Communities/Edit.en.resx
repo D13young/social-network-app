@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EditCommunity" xml:space="preserve">
+    <value>Edit Community</value>
+  </data>
+  <data name="CommunityName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CommunityDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+</root>

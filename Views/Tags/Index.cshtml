@@ -1,0 +1,20 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@model IEnumerable<SocialNetworkApp.Models.Tag>
+
+@{
+    ViewData["Title"] = Localizer["Tags"];
+}
+
+<div class="container mt-4">
+    <h2>@Localizer["Tags"]</h2>
+    <p>
+        <a asp-action="Create" class="btn btn-primary">@Localizer["CreateNewTag"]</a>
+    </p>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@item.Name</li>
+        }
+    </ul>
+</div>

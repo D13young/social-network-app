@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Posts" xml:space="preserve">
+    <value>Посты</value>
+  </data>
+  <data name="AllPosts" xml:space="preserve">
+    <value>Все посты</value>
+  </data>
+  <data name="CreateNewPost" xml:space="preserve">
+    <value>Создать новый пост</value>
+  </data>
+</root>

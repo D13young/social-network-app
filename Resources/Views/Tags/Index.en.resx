@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="CreateNewTag" xml:space="preserve">
+    <value>Create New Tag</value>
+  </data>
+</root>

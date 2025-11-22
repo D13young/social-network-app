@@ -1,0 +1,30 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@if (ViewBag.TotalPages > 1)
+{
+    <nav aria-label="Пагинация постов">
+        <ul class="pagination justify-content-center">
+            @if (ViewBag.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="@ViewBag.Action" asp-controller="@ViewBag.Controller" asp-all-route-data="@ViewBag.RouteValues" asp-route-page="@(ViewBag.CurrentPage - 1)">@Localizer["Previous"]</a>
+                </li>
+            }
+
+            @for (int i = Math.Max(1, ViewBag.CurrentPage - 2); i <= Math.Min(ViewBag.TotalPages, ViewBag.CurrentPage + 2); i++)
+            {
+                <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                    <a class="page-link" asp-action="@ViewBag.Action" asp-controller="@ViewBag.Controller" asp-all-route-data="@ViewBag.RouteValues" asp-route-page="@i">@i</a>
+                </li>
+            }
+
+            @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="@ViewBag.Action" asp-controller="@ViewBag.Controller" asp-all-route-data="@ViewBag.RouteValues" asp-route-page="@(ViewBag.CurrentPage + 1)">@Localizer["Next"]</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}

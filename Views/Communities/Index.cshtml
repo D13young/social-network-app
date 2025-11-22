@@ -1,0 +1,36 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@model IEnumerable<SocialNetworkApp.Models.Community>
+
+@{
+    ViewData["Title"] = Localizer["Communities"];
+}
+
+<div class="container mt-4">
+    <h2>@Localizer["Communities"]</h2>
+    <p>
+        <a asp-action="Create" class="btn btn-primary">@Localizer["CreateNewCommunity"]</a>
+    </p>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>@Localizer["Name"]</th>
+                <th>@Localizer["Description"]</th>
+                <th>@Localizer["Actions"]</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">@Localizer["Edit"]</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">@Localizer["Delete"]</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Posts" xml:space="preserve">
+    <value>Posts</value>
+  </data>
+  <data name="AllPosts" xml:space="preserve">
+    <value>All Posts</value>
+  </data>
+  <data name="CreateNewPost" xml:space="preserve">
+    <value>Create New Post</value>
+  </data>
+</root>

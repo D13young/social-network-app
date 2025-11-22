@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="CreatePost" xml:space="preserve">
+    <value>Create Post</value>
+  </data>
+  <data name="PostTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="PostContent" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="PostCommunity" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="SelectCommunity" xml:space="preserve">
+    <value>Select Community</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="AddNewTag" xml:space="preserve">
+    <value>Add New Tag</value>
+  </data>
+  <data name="EnterNewTagName" xml:space="preserve">
+    <value>Enter new tag name</value>
+  </data>
+  <data name="ImageOptional" xml:space="preserve">
+    <value>Image (optional)</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+</root>

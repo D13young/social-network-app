@@ -1,0 +1,41 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@model SocialNetworkApp.Models.Post
+
+@{
+    ViewData["Title"] = Localizer["DeletePost"];
+}
+
+<div class="container mt-4">
+    <h2>@Localizer["DeletePost"]</h2>
+
+    <h4>@Localizer["ConfirmDeletePost"]</h4>
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-2">@Localizer["Title"]</dt>
+        <dd class="col-sm-10">@Model.Title</dd>
+
+        <dt class="col-sm-2">@Localizer["Content"]</dt>
+        <dd class="col-sm-10">@Model.Content</dd>
+
+        <dt class="col-sm-2">@Localizer["Community"]</dt>
+        <dd class="col-sm-10">
+            @(Model.Community?.Name ?? Localizer["NotSpecified"].Value)
+        </dd>
+
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <dt class="col-sm-2">@Localizer["Image"]</dt>
+            <dd class="col-sm-10">
+                <img src="@Model.ImagePath" class="img-thumbnail" style="max-height: 200px;" />
+            </dd>
+        }
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="@Localizer["Delete"]" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">@Localizer["Cancel"]</a>
+    </form>
+</div>

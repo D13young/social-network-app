@@ -1,0 +1,17 @@
+{
+  "ConnectionStrings": {
+    "ApplicationDbContextConnection": "Data Source=SocialNetwork.db",
+    "SocialNetworkAppIdentityDbContextConnection": "Server=(localdb)\\mssqllocaldb;Database=SocialNetworkApp;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "Resend": {
+    "ApiKey": "YOUR_RESEND_API_KEY_HERE",
+    "FromEmail": "your-email@example.com"
+  }
+}

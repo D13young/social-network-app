@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="DeleteCommunity" xml:space="preserve">
+    <value>Удалить сообщество</value>
+  </data>
+  <data name="ConfirmDeleteCommunity" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить это сообщество?</value>
+  </data>
+  <data name="Community" xml:space="preserve">
+    <value>Сообщество</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+</root>

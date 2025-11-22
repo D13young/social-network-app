@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EditCommunity" xml:space="preserve">
+    <value>Редактировать сообщество</value>
+  </data>
+  <data name="CommunityName" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="CommunityDescription" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+</root>

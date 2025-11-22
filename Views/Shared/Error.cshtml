@@ -1,0 +1,44 @@
+﻿﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@model ErrorViewModel
+@{
+    ViewData["Title"] = Localizer["Error"];
+}
+
+<div class="text-center">
+    @if (Model.ErrorStatusCode == 404)
+    {
+        <h1 class="display-1 text-danger">404</h1>
+        <h2 class="text-danger">@Localizer["PageNotFound"]</h2>
+        <p class="lead">@Localizer["PageNotFoundDescription"]</p>
+    }
+    else if (Model.ErrorStatusCode == 403)
+    {
+        <h1 class="display-1 text-warning">403</h1>
+        <h2 class="text-warning">@Localizer["AccessDenied"]</h2>
+        <p class="lead">@Localizer["AccessDeniedDescription"]</p>
+    }
+    else if (Model.ErrorStatusCode == 500)
+    {
+        <h1 class="display-1 text-danger">500</h1>
+        <h2 class="text-danger">@Localizer["InternalServerError"]</h2>
+        <p class="lead">@Localizer["InternalServerErrorDescription"]</p>
+    }
+    else
+    {
+        <h1 class="display-1 text-secondary">@Model.ErrorStatusCode</h1>
+        <h2 class="text-secondary">@Localizer["Error"]</h2>
+        <p class="lead">@Localizer["UnexpectedError"]</p>
+    }
+
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">@Localizer["GoHome"]</a>
+    <a asp-controller="Posts" asp-action="Index" class="btn btn-secondary ml-2">@Localizer["GoToPosts"]</a>
+</div>
+
+@if (Model.ShowRequestId)
+{
+    <hr />
+    <p class="text-muted">
+        <strong>@Localizer["RequestId"]:</strong> <code>@Model.RequestId</code>
+    </p>
+}

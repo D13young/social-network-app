@@ -1,0 +1,317 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/obj/Debug/net8.0/scopedcss/projectbundle/SocialNetworkApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/SocialNetworkApp.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/3815eccc-0e3c-40af-9830-0567ef6a5a8e_image.jpg",
+      "PackagePath": "staticwebassets/uploads/3815eccc-0e3c-40af-9830-0567ef6a5a8e_image.jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/57e34d89-17cb-4062-b8e5-5f80035cf63d_h.jpg",
+      "PackagePath": "staticwebassets/uploads/57e34d89-17cb-4062-b8e5-5f80035cf63d_h.jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/5bb6a49a-62c8-484c-8326-5c9aaf2d8c66_image.jpg",
+      "PackagePath": "staticwebassets/uploads/5bb6a49a-62c8-484c-8326-5c9aaf2d8c66_image.jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/687931a6-7c92-45f0-a5e5-fb2584be1f4c_h.jpg",
+      "PackagePath": "staticwebassets/uploads/687931a6-7c92-45f0-a5e5-fb2584be1f4c_h.jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/74b299d7-15b5-413c-a844-db8a4ef298ac_h.jpg",
+      "PackagePath": "staticwebassets/uploads/74b299d7-15b5-413c-a844-db8a4ef298ac_h.jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/85fe9d39-3481-4a6f-b0ac-b6a5d78307b7_h.jpg",
+      "PackagePath": "staticwebassets/uploads/85fe9d39-3481-4a6f-b0ac-b6a5d78307b7_h.jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/98cabc82-4795-4e13-89cb-d9134efb3866_image4.jpg",
+      "PackagePath": "staticwebassets/uploads/98cabc82-4795-4e13-89cb-d9134efb3866_image4.jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/avatars/042acc2b-42b4-4301-87a5-0b40c0cb9cc6_image4.jpg",
+      "PackagePath": "staticwebassets/uploads/avatars/042acc2b-42b4-4301-87a5-0b40c0cb9cc6_image4.jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/avatars/0ecd3a21-83b0-41a0-8b19-5949684141d1_Unknown.jpeg",
+      "PackagePath": "staticwebassets/uploads/avatars/0ecd3a21-83b0-41a0-8b19-5949684141d1_Unknown.jpeg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/d59b1601-75cc-4100-ae36-ab1d4c361315_image4.jpg",
+      "PackagePath": "staticwebassets/uploads/d59b1601-75cc-4100-ae36-ab1d4c361315_image4.jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/e5068619-7354-4f83-a109-dd2451e546b3_image(1).jpg",
+      "PackagePath": "staticwebassets/uploads/e5068619-7354-4f83-a109-dd2451e546b3_image(1).jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/e754c06c-6fa6-4abe-ab02-7cc6351b7a4e_image(1).jpg",
+      "PackagePath": "staticwebassets/uploads/e754c06c-6fa6-4abe-ab02-7cc6351b7a4e_image(1).jpg"
+    },
+    {
+      "Id": "/Users/sergkeller/Desktop/dz/SocialNetworkApp2/SocialNetworkApp/wwwroot/uploads/faeb37a2-9024-4714-a786-487f3ed10063_image(1).jpg",
+      "PackagePath": "staticwebassets/uploads/faeb37a2-9024-4714-a786-487f3ed10063_image(1).jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.SocialNetworkApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.SocialNetworkApp.props",
+      "PackagePath": "build\\SocialNetworkApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.SocialNetworkApp.props",
+      "PackagePath": "buildMultiTargeting\\SocialNetworkApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.SocialNetworkApp.props",
+      "PackagePath": "buildTransitive\\SocialNetworkApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

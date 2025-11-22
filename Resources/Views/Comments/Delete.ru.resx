@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="DeleteComment" xml:space="preserve">
+    <value>Удалить комментарий</value>
+  </data>
+  <data name="ConfirmDeleteComment" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить этот комментарий?</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+</root>

@@ -1,0 +1,59 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@model SocialNetworkApp.Models.Post
+
+<div class="col-md-6 col-lg-4 mb-4">
+    <div class="card">
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <img src="@Model.ImagePath" class="card-img-top" style="height: 200px; object-fit: cover;" alt="@Model.Title" />
+        }
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title</h5>
+            <p class="card-text">
+                @if (!string.IsNullOrEmpty(Model.Content))
+                {
+                    @(Model.Content.Substring(0, Math.Min(Model.Content.Length, 100)) + "...")
+                }
+                else
+                {
+                    <span>@Localizer["NoDescription"]</span>
+                }
+            </p>
+            <p><small class="text-muted">@Localizer["Community"]: @(Model.Community?.Name ?? Localizer["NotSpecified"].ToString())</small></p>
+            <p><small class="text-muted">@Localizer["Author"]: @(Model.ApplicationUser?.UserName ?? Localizer["Anonymous"].ToString())</small></p>
+            <p><small class="text-muted">@Localizer["Created"]: @Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")</small></p>
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <div>
+                    <span class="badge badge-success">@Model.PostLikes.Count(pl => pl.IsLike) 👍</span>
+                    <span class="badge badge-danger">@Model.PostLikes.Count(pl => !pl.IsLike) 👎</span>
+                    <span class="badge badge-info">@Model.Comments.Count 💬</span>
+                </div>
+            </div>
+            <div class="btn-group" role="group">
+                <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-outline-primary btn-sm">@Localizer["Details"]</a>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <form asp-controller="PostLikes" asp-action="ToggleLike" method="post" class="d-inline">
+                        <input type="hidden" name="postId" value="@Model.Id" />
+                        <input type="hidden" name="isLike" value="true" />
+                        <button type="submit" class="btn btn-sm btn-success" title="@Localizer["Like"]">👍</button>
+                    </form>
+                    <form asp-controller="PostLikes" asp-action="ToggleLike" method="post" class="d-inline">
+                        <input type="hidden" name="postId" value="@Model.Id" />
+                        <input type="hidden" name="isLike" value="false" />
+                        <button type="submit" class="btn btn-sm btn-danger" title="@Localizer["Dislike"]">👎</button>
+                    </form>
+                }
+                @if (User.Identity.IsAuthenticated && (Model.ApplicationUserId == User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value || User.IsInRole("Moderator") || User.IsInRole("Admin")))
+                {
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-secondary btn-sm">@Localizer["Edit"]</a>
+                    <form asp-controller="Posts" asp-action="Delete" method="post" class="d-inline">
+                        <input type="hidden" name="id" value="@Model.Id" />
+                        <button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('@Localizer["ConfirmDelete"]')">@Localizer["Delete"]</button>
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</div>

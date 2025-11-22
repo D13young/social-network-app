@@ -1,0 +1,29 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@model IEnumerable<SocialNetworkApp.Models.Post>
+
+@{
+    ViewData["Title"] = Localizer["Posts"];
+}
+
+<div class="container mt-4">
+    <h2>@Localizer["AllPosts"]</h2>
+    @if (User.Identity?.IsAuthenticated ?? false)
+    {
+        <p>
+            <a asp-action="Create" class="btn btn-primary">@Localizer["CreateNewPost"]</a>
+        </p>
+    }
+
+    @await Component.InvokeAsync("Sorting", new { currentSort = ViewBag.SortBy })
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            @await Component.InvokeAsync("PostCard", new { post = item })
+        }
+    </div>
+
+    @await Component.InvokeAsync("Pagination", new { currentPage = ViewBag.CurrentPage, totalPages = ViewBag.TotalPages, action = "Index", controller = "Posts", routeValues = new { sortBy = ViewBag.SortBy } })
+</div>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Tags" xml:space="preserve">
+    <value>Теги</value>
+  </data>
+  <data name="CreateNewTag" xml:space="preserve">
+    <value>Создать новый тег</value>
+  </data>
+</root>

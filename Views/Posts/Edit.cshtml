@@ -1,0 +1,74 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@model SocialNetworkApp.Models.Post
+
+@{
+    ViewData["Title"] = Localizer["EditPost"];
+}
+
+<div class="container mt-4">
+    <h2>@Localizer["EditPost"]</h2>
+
+    <form asp-action="Edit" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Title" class="form-label">@Localizer["PostTitle"]</label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Content" class="form-label">@Localizer["PostContent"]</label>
+            <textarea asp-for="Content" class="form-control" rows="5"></textarea>
+            <span asp-validation-for="Content" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label">@Localizer["PostCommunity"]</label>
+            <select asp-for="CommunityId" class="form-control" asp-items="@(new SelectList(ViewBag.Communities ?? new List<SocialNetworkApp.Models.Community>(), "Id", "Name"))">
+                <option value="">-- @Localizer["SelectCommunity"] --</option>
+            </select>
+            <span asp-validation-for="CommunityId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label">@Localizer["CurrentTags"]</label>
+            @foreach (var tag in ViewBag.Tags as List<SocialNetworkApp.Models.Tag> ?? new List<SocialNetworkApp.Models.Tag>())
+            {
+                bool isChecked = (ViewBag.SelectedTagIds as List<int> ?? new List<int>()).Contains(tag.Id);
+                <div class="form-check">
+                    <input type="checkbox" name="SelectedTagIds" value="@tag.Id" class="form-check-input" @(isChecked ? "checked" : "") />
+                    <label class="form-check-label">@tag.Name</label>
+                </div>
+            }
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label">@Localizer["AddNewTag"]</label>
+            <input type="text" name="NewTagName" class="form-control" placeholder="@Localizer["EnterNewTagName"]" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label">@Localizer["ReplaceImageOptional"]</label>
+            <input type="file" name="ImageFile" class="form-control" accept="image/*" />
+            @if (!string.IsNullOrEmpty(Model.ImagePath))
+            {
+                <div class="mt-2">
+                    <img src="@Model.ImagePath" class="img-thumbnail" style="max-height: 150px;" />
+                </div>
+            }
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="@Localizer["Save"]" class="btn btn-success" />
+            <a asp-action="Index" class="btn btn-secondary">@Localizer["Back"]</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

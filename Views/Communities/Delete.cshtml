@@ -1,0 +1,30 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@model SocialNetworkApp.Models.Community
+
+@{
+    ViewData["Title"] = Localizer["DeleteCommunity"];
+}
+
+<div class="container mt-4">
+    <h2>@Localizer["DeleteCommunity"]</h2>
+    <h3>@Localizer["ConfirmDeleteCommunity"]</h3>
+    
+    <div>
+        <h4>@Localizer["Community"]</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">@Localizer["Name"]</dt>
+            <dd class="col-sm-10">@Model.Name</dd>
+            
+            <dt class="col-sm-2">@Localizer["Description"]</dt>
+            <dd class="col-sm-10">@Model.Description</dd>
+        </dl>
+        
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger">@Localizer["Delete"]</button>
+            <a asp-action="Index" class="btn btn-secondary">@Localizer["Back"]</a>
+        </form>
+    </div>
+</div>

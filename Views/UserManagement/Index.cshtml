@@ -1,0 +1,55 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@model IEnumerable<SocialNetworkApp.Models.ApplicationUser>
+
+@{
+    ViewData["Title"] = Localizer["UserManagement"];
+}
+
+<div class="container mt-4">
+    <h2>@Localizer["UserManagement"]</h2>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>@Localizer["UserName"]</th>
+                <th>@Localizer["Email"]</th>
+                <th>@Localizer["PostsCount"]</th>
+                <th>@Localizer["CommentsCount"]</th>
+                <th>@Localizer["LikesCount"]</th>
+                <th>@Localizer["Status"]</th>
+                <th>@Localizer["Actions"]</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td>@user.PostsCount</td>
+                    <td>@user.CommentsCount</td>
+                    <td>@user.LikesCount</td>
+                    <td>
+                        @if (user.IsBanned)
+                        {
+                            <span class="badge badge-danger">@Localizer["Banned"]</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-success">@Localizer["Active"]</span>
+                        }
+                    </td>
+                    <td>
+                        <form asp-controller="UserManagement" asp-action="ToggleBan" method="post" class="d-inline">
+                            <input type="hidden" name="userId" value="@user.Id" />
+                            <button type="submit" class="btn btn-sm @(user.IsBanned ? "btn-success" : "btn-danger")">
+                                @(user.IsBanned ? Localizer["Unban"] : Localizer["Ban"])
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

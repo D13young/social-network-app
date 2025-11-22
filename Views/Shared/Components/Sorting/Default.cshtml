@@ -1,0 +1,18 @@
+@model dynamic
+
+<div class="sorting-controls mb-3">
+    <div class="btn-group" role="group" aria-label="Сортировка постов">
+        <a href="@Url.Action("Index", "Posts", new { sortBy = "newest" })"
+           class="btn btn-outline-primary @(ViewBag.CurrentSort == "newest" ? "active" : "")">
+            Новые
+        </a>
+        <a href="@Url.Action("Index", "Posts", new { sortBy = "popular" })"
+           class="btn btn-outline-primary @(ViewBag.CurrentSort == "popular" ? "active" : "")">
+            Популярные
+        </a>
+        <a href="@Url.Action("Index", "Posts", new { sortBy = "discussed" })"
+           class="btn btn-outline-primary @(ViewBag.CurrentSort == "discussed" ? "active" : "")">
+            Обсуждаемые
+        </a>
+    </div>
+</div>
