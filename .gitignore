@@ -1,0 +1,32 @@
+# .NET
+bin/
+obj/
+
+# User-specific files
+*.user
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# ASP.NET Core
+appsettings.json
+appsettings.Development.json
+
+# User uploads
+wwwroot/uploads/
+
+# Build artifacts
+*.zip
+ScaffoldingReadMe.txt
